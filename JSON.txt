@@ -1,0 +1,82 @@
+“tag”: ”Positive hobby” 
+“patterns”: [“I like to go to the gym”, “I like to read”, “I enjoy cooking”, ] 
+“responses”: “Awesome, that sounds like a healthy habit”, “That's great! Sounds like a healthy habit",]
+“context”:[“”]
+
+"tag": "Positive exercise"
+"patterns": ["I excercise twice a week", "I exercise 3 times a week", "I exercise 4 times a week"
+, "I exercise 5 times a week", "I exercise 6 times a week", I exercise every day"]
+"responses": ["Great, how is your sleep?", "That sound great, how is your sleep?"]
+"context": [""]
+
+"tag": "Positive sleep"
+"patterns": ["I get a good sleep most nights", "I sleep about 7 hours a night", "I sleep 8 hours a night", 
+"I sleep 7.5 hours a night"]
+"responses": ["That sounds healthy, what are your eating habits like?", "That's great, how well
+do you eat?", "Awesome, do you eat healthy?"]
+"context": [""]
+
+"tag": "Neutral diet"
+"patterns": ["I eat fast food sometimes, but mostly prepare my own meals", "Mostly healthy, but
+I do eat fast food sometimes"]
+"responses": ["Okay, how much time do you spend outdoors?", "Alright, do you spend much time outdoors?"
+, "I see, how much time do you spend outdoors?"]
+"context": [""]
+
+"tag": "Positive sunlight"
+"patterns": ["I spend a couple hours outside everyday usually", "I usually spend a few hours outside",
+"I usually spend a couple hours outside every day", "I spend a few hours outside usually"]
+"responses": ["I see, are you on any medications", "sounds nice, are you on any medication?"]
+"context": [""]
+
+"tag": "Negative medication"
+"patterns": ["No I'm not taking any medications", "No", "I'm not on any medication", "Nope",
+"No I'm not on any medications"]
+"responses": ["Alright. Have you ever seen a therapist before?", 
+"Okay, have you seen a therapist before?"]
+"context": [""]
+
+"tag": "Negative therapist"
+"patterns": "No I have not", "No", "I have not", "I haven't ever seen a therapist no", 
+"responses": ["Ok, can you describe how you're feeling?", "Okay. Do you mind describing some of your feelings, as to why you came here today?"]
+"context": [""]
+
+"tag": "Who help"
+"patterns": "Where can I get help for this?", "Where can I go for help?", "Who can help me with this?",
+"Who can I see to get help for this?"
+"responses": "I am not capable of referring you to a real life doctor yet, 
+but here is a website that could direct you appropriately. https://mentalhealthweek.ca/check-in-on-your-mental-health/"
+"context": [""]
+
+"tag": "What help"
+"patterns": ["What can I do to resolve this?", "What can I do?", "What can I do to help myself?"]
+"responses": ["Here is a website that can direct you: https://bouncebackbc.ca/"
+"context": [""]
+
+"tag": "Anxiety"
+"patterns": ["I'm overly anxious", "I'm really anxious", "I'm worried all the time", "I'm always tired",
+"I'm tired all the time", "I'm tired constantly", "I can't sit still", "I'm always jumpy",
+"I can't rest", "I'm restless", "I'm sore", "My muscles are sore", "My muscles are always sore",
+"I can't focus", "I can't concentrate", "I'm having trouble concentrating", "I'm irratible",
+"I'm having difficulty sleeping", "I can't sleep", "I have insomnia"]
+"responses": ["This sounds like you may have anxiety, I'm sorry. Please refer to this documentation
+to get more information. https://www.verywellmind.com/dsm-5-criteria-for-generalized-anxiety-disorder-1393147"]
+"context": [""]
+
+"tag": "Negative response"
+"patterns": ["I really don't want to talk about that", "I don't want to talk about that",
+"I can't talk about that", "I'm sorry I can't talk about that"]
+"responses":  ["Ok no problem, Do you have any hobbies?"
+"context": [""]
+
+"tag": "Not understood"
+"patterns": [""]
+"tag": "Thanks"
+"patterns": ["Thanks", "Thank you", "Thank you very much"]
+"responses": ["You're welcome", "No problem"]
+"context": [""]
+
+"tag": "bye"
+"patterns": ["bye", "goodbye", "farewell"]
+"responses": ["goodbye"]
+"context": [""]
