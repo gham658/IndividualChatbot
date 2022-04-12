@@ -58,12 +58,12 @@ To use the chatbot you can run the file `app/chatbot/chatbot_app.py`
 
 ------
 
-### API Updates (For Individual Assignment)
+### API Updates
 
 #### Wikipedia API
 This Chatbot uses the Wikipedia API to provide users with extra information about the mental illness 
 they get diagnosed with. After being diagnosed, the user can check the console to find an additional 
-summary about their disease taken from Wikipedia.
+summary about their disease taken from Wikipedia. This is located in the main chatbot_app.py file.
 
 #### Translate API
-This Chatbot also uses Microsoft Azure Translate API, it can take inputs from all of the patterns and responses in the JSON file and translate them to a given language.
+This Chatbot also uses Microsoft Azure Translate API, it can take inputs from all of the patterns and responses in the JSON file and translate them to a given language. This is located in a seperate TranslateChat.py file.
